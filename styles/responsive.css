@@ -1,0 +1,24 @@
+@media  screen and (max-width:600px) {
+  /*  */
+  body,html{
+    overflow-x: hidden;
+    width: 100%;
+  }
+.navbar{
+/* flex-direction: column;   */
+/* justify-content: center;
+align-items: center; */
+padding: 30px;
+}
+.logo{
+  display: flex;
+}
+.fa-bars{
+  display: block;
+  cursor: pointer;
+}
+.navlinks{
+  margin-top: -100px;
+}
+}
+

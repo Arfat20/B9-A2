@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&family=Playfair+Display&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: mulish;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.fa-bars{
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  align-items: center;
+}
+.active{
+  color: #FF5400;
+  font-weight: bold;
+}
+ul{
+  list-style: none;
+}
+.navbar{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.navlinks{
+  display: flex;
+  align-items: center;
+  
+}
+.navlinks li{
+  margin: 0 30px;
+}
